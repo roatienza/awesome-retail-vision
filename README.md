@@ -93,6 +93,12 @@ Controllable shoppers and staff inside generated stores. *(Track C — least exp
 
 ## 🗃 Datasets & Assets
 
+- **Sample SKU label textures** — [`images/555_TUNA_AFRITADA_155G.jpg`](images/555_TUNA_AFRITADA_155G.jpg) (8192×3618, 7.0 MB) and [`images/ZESTO_ROOT_BEER_500ML_LABEL.jpg`](images/ZESTO_ROOT_BEER_500ML_LABEL.jpg) (4000×1579, 2.1 MB): wrap-around label scans of a canned tuna and a bottled root beer, the concrete target format for Track A — flat label art to be wrapped onto can/bottle geometry, with barcode and nutrition facts intact.
+
+| 555 Tuna Afritada 155g | Zesto Root Beer 500ml |
+|---|---|
+| [![555 Tuna Afritada 155g label texture](images/555_TUNA_AFRITADA_155G_preview.jpg)](images/555_TUNA_AFRITADA_155G.jpg) | [![Zesto Root Beer 500ml label texture](images/ZESTO_ROOT_BEER_500ML_LABEL_preview.jpg)](images/ZESTO_ROOT_BEER_500ML_LABEL.jpg) |
+
 - [RoboBenchMart Assets](https://huggingface.co/datasets/emb-ai/RoboBenchMart_assets) — 2.4 GB of retail environment assets (shelves, fake shelves, downscaled props) for ManiSkill. *Why retail:* reusable shelf/prop geometry; pair with our SKU textures. `dataset`
 - Sari Sandbox product scans — 250+ real-scanned SKU textures (from the original Sari Sandbox release; see [repo](https://github.com/upeee/sari-sandbox-env)). *Why retail:* scanner-grade ground truth for evaluating generated textures. `dataset` `sku-3d`
 
